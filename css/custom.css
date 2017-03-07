@@ -1,3 +1,9 @@
+@media (max-width: 765px) {
+  #wrapper {
+    width: 100%;
+  }
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -51,7 +57,7 @@ li a:hover:not(.active) {
 }*/
 
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -61,7 +67,7 @@ button {
   font-size: 16px;
 }
 button:hover {
-  background-color: #41d347; /* Green */
+  background-color: #41d347;
   color: white;
 }
 
