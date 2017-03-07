@@ -1,0 +1,159 @@
+html {
+    font-size: 70%;
+}
+
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+}
+
+/* Navigation */
+nav{
+  overflow: hidden;
+  background-color: #393F4C;
+  padding-left: 15%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+nav a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover{
+  background-color: #2ecc71;
+  color: white;
+}
+
+nav a.aktif{
+  background-color: #2ecc71;
+  color: white;
+}
+
+
+/*Grid*/
+
+.kontener {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.kolom {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+/* Tautan */
+
+a {
+    color: #2ecc71;
+}
+
+a:hover {
+    color: #27ae60;
+}
+
+
+/* Tombol */
+button,
+.tombol {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+button,
+.tombol:hover {
+    color: #333;
+    border-color: #888;
+    outline: 0;
+}
+button,
+.tombol.tombol-primer {
+    color: #FFF;
+    background-color: #2ecc71;
+    border-color: #27ae60;
+}
+button,
+.tombol-primer:hover {
+    color: #FFF;
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+
+/* Formulir */
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #2ecc71;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus, select:focus {
+    border: 1px solid #27ae60;
+    outline: 0;
+
+
+
+/* Utilitas */
+.lebar-penuh {
+  width: 100%;
+  box-sizing: border-box;
+}
