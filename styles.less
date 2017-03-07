@@ -1,0 +1,135 @@
+@box-1: 8.33%;
+@box-2:16.66%;
+@box-3: 25%;
+@box-4: 33.33%;
+@box-5: 41.66%;
+@box-6: 50%;
+@box-7: 58.33%;
+@box-8: 66.66%;
+@box-9: 75%;
+@box-10: 83.33%;
+@box-11: 91.66%;
+@box-12: 100%;
+@float: left;
+@border: 1px solid black;
+@blueColor: rgb(61, 118, 153);
+@center: center;
+@block: block;
+
+.box-1 {width: @box-1;}
+.box-2 {width: @box-2;}
+.box-3 {width: @box-3;}
+.box-4 {width: @box-4;}
+.box-5 {width: @box-5;}
+.box-6 {width: @box-6;}
+.box-7 {width: @box-7;}
+.box-8 {width: @box-8;}
+.box-9 {width: @box-9;}
+.box-10 {width: @box-10;}
+.box-11 {width: @box-11;}
+.box-12 {width: @box-12;}
+
+.fl {
+  float: @float;
+}
+
+.border {
+    border: @border
+}
+.login {
+  margin: 4px;
+  padding: 3px;
+}
+
+.center {
+  text-align: @center;
+  align-content: @center;
+}
+
+/*kalau ada float, dibawah nya ditambahin class clear: both*/
+.clearfix {
+  clear: both;
+}
+
+.tester {
+  padding-left: 20px;
+}
+
+.padding-350 {
+  padding-left: 350px;
+}
+
+.font-size-20px {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.logo {
+  height: 450px;
+}
+
+.biru {
+  background-color: @blueColor
+}
+
+.gambar {
+  width: 300px;
+  margin: auto;
+  padding: 40px;
+  display: @block;
+  max-width: 100%;
+}
+
+.putih {
+  color: white;
+  font-size: 30px;
+  word-spacing: 5px;
+  margin: 0px
+}
+
+.tagline {
+  color: white;
+  font-size: 25px;
+  word-spacing: 5px;
+  margin: 0px
+}
+
+.text-biru {
+  color: @blueColor
+}
+
+.border-top {
+  border: @border
+}
+
+.kotak-kiri {
+  padding: 70px;
+}
+
+.food {
+  width: 300px;
+  margin: auto;
+  padding: 0px;
+  display: @block;
+  max-width: 100%;
+}
+
+@media (max-width: 765px){
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5,
+  .box-6,
+  .box-7,
+  .box-8,
+  .box-9,
+  .box-10,
+  .box-11,
+  .box-12 {
+    width: 100%;
+  }
+}
